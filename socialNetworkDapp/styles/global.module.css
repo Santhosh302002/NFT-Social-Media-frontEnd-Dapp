@@ -1,0 +1,178 @@
+.card {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.95);
+    margin: 10px;
+    width: 623px;
+    height: 833px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+
+.Owner {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    width: 500px;
+    font-size: larger;
+}
+
+.innerCard {
+    display: flex;
+    background: rgb(80 80 80 / 55%);
+    margin: 10px;
+    width: 583px;
+    height: 783px;
+    left: 432px;
+    top: 224px;
+    border-radius: 30px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+.image {
+    /* image 18 */
+
+    width: 671px;
+    height: 500px;
+    border-radius: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    background-size: cover;
+}
+
+.description {
+    color: white;
+    font-size: large;
+    font-style: normal;
+    font-weight: 500;
+    width: 515px;
+    /* background-color: brown; */
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 515px;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 8px;
+    width: 150px;
+    height: 51px;
+    background: #308AFF;
+    border-radius: 100px;
+    /* background: #FFFFFF; */
+    color: white;
+    height: 20px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 8px;
+    width: 150px;
+    height: 51px;
+    background: white;
+    border-radius: 100px;
+    /* background: #FFFFFF; */
+    color: #308AFF;
+    height: 20px;
+}
+
+.price {
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 510px;
+    padding-bottom: 25px;
+}
+
+.commenting {
+    background-color: rgba(242, 241, 241, 0.1);
+    border: 0px solid;
+    height: 30px;
+    width: 260px;
+    width: 515px;
+    height: 60px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.commenting:focus {
+    outline: none;
+}
+
+#input::placeholder {
+    display: flex;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.nft {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nftcard {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(80 80 80 / 55%);
+    border-radius: 30px;
+}
+
+.name {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nftButton {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 8px;
+    width: 150px;
+    height: 51px;
+    background: #308AFF;
+    border-radius: 100px;
+    /* background: #FFFFFF; */
+    color: white;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.nftButton:focus {
+    outline: none;
+    box-shadow: none;
+}
